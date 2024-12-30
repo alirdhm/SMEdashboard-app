@@ -1003,7 +1003,7 @@ elif st.session_state['menu_choice'] == 'Summary':
         showlegend=False,
         height=600,
         width=800,
-        xaxis=dict(showgrid=False, title_font=dict(size=20), tickfont=dict(size=15)),  # Style adjustments for axes
+        xaxis=dict(showgrid=False, title_font=dict(size=20), tickfont=dict(size=15)),  # Style adjustments for axes 
     )
 
     # Display the chart in Streamlit

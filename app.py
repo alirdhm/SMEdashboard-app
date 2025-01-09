@@ -409,13 +409,13 @@ if st.session_state['menu_choice'] == 'About':
 
         # Tampilkan gambar di kolom-kolom
         with col1:
-            st.image(image_paths[0], caption="source : pinterest = Watcharapon Kaewjit", use_column_width=True)
+            st.image(image_paths[0], caption="source : pinterest = Watcharapon Kaewjit", use_container_width=True)
  
         with col2:
-            st.image(image_paths[1], caption="source : pinterest = Annabel Muir", use_column_width=True)
+            st.image(image_paths[1], caption="source : pinterest = Annabel Muir", use_container_width=True)
 
         with col3:
-            st.image(image_paths[2], caption="source : pinterest = Hydric Template", use_column_width=True)
+            st.image(image_paths[2], caption="source : pinterest = Hydric Template", use_container_width=True)
 
         # Pesan Tambahan
         st.markdown(
